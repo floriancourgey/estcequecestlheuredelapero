@@ -15,4 +15,5 @@ git push heroku master
 $ heroku login
 $ heroku logs --tail
 $ heroku ps
+https://dashboard.heroku.com/apps
 ```
