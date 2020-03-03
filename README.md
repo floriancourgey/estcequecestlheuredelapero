@@ -2,12 +2,14 @@
 
 ## Build
 ```console
-heroku local web
+$ node app.js
 ```
 
 ## Deploy
+The dyno is set up with auto deploy from github.com/floriancourgey/estcequecestlheuredelapero
+
 ```console
-git push heroku master
+git push
 ```
 
 ## Heroku specific
