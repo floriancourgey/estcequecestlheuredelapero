@@ -6,13 +6,15 @@ exports.index = function(req, res, next) {
     const minutes = now.minutes();
     if(false){
     } else if(minutes === 5){
-      text = "OUI, à cinque, on trinque !";  
+      text = "OUI, à cinque, on trinque !";
     } else if(minutes === 15){
       text = "OUI, à et quart, Ricard !";
     } else if(minutes === 20){
       text = "OUI, à 20, c'est l'heure du vin !";
     } else if( minutes === 45){
       text = "OUI, moins l'quart, Ricard !";
+    } else if( minutes === 50){
+      text = "OUI, moins dix, Pastis !";
     } else if(now.format('dddd') === 'Friday'){
       text = 'OUI, vendredi tout est permis !';
     }
