@@ -10,10 +10,35 @@
     <meta name="theme-color" content="#563d7c">
     <link rel="stylesheet" href="/public/index.css">
   </head>
-  <body class="text-center">
-    <div class="form-signin" style="font-size:50px;">
-      <%= text %>
+  <body class="text-center d-flex flex-fill flex-column">
+    <div class="flex-grow-1 d-flex align-items-center" style="font-size:50px;">
+      <p class="main-text"><%= text %></p>
     </div>
+    <footer>
+      <p class="m-0">
+        Developed with ❤️ by
+        <a
+          href="https://blog.floriancourgey.com?ref=estcequecestlheuredelapero"
+          target="_blank"
+        >
+          Florian Courgey
+        </a>
+        • Running on
+        <a
+          href="https://www.heroku.com/"
+          target="_blank"
+        >
+          Heroku
+        </a>
+        •
+        <a
+          href="https://github.com/floriancourgey/estcequecestlheuredelapero"
+          target="_blank"
+        >
+          Fork me!
+        </a>
+      </p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

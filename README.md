@@ -1,7 +1,8 @@
 # estcequecestlheuredelapero
 
-## Build
+## Build & Run
 ```console
+$ npm i
 $ node app.js
 ```
 
